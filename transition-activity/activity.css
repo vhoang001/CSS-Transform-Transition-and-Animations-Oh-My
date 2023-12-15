@@ -1,1 +1,40 @@
+button {
+    padding: 1em;
+    margin: .2em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    background-color: ghostwhite; 
+    transition: background-color 2s, color 2s; 
+}
+  
+button:hover {
+    background-color: cornflowerblue; 
+    transition: background-color 2s, color 2s;
+    color: azure;
+}
+  
+.caption {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
 
+.caption img {
+    width: 100%;
+    display: block; 
+}
+
+.text-overlay {
+    position: absolute;
+    top: 10%; 
+    text-align: center;
+    color: white; 
+    z-index: 10;
+    transition: transform 0.5s ease;
+    cursor: pointer; 
+}
+  
+.text-overlay:hover {
+    transform: translateY(100px); 
+}

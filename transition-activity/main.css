@@ -11,6 +11,10 @@ body  {
   overflow: hidden;
 }
 
+p{
+  margin: auto;
+  text-align: center;
+}
 img {
   width: 80%;
 }
